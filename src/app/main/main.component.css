@@ -1,0 +1,115 @@
+.container{
+	margin: 5vh;
+}
+
+.top-cont{
+	display: flex;
+	border: 1px solid black;
+	padding: 10px;
+}
+
+.left-cont{
+	width: 30%;
+}
+
+.result-table{
+	height:  60vh;
+	overflow: auto;
+	margin-top: 5vh;
+}
+
+table{
+	border-collapse: collapse;
+	width:  100%;
+}
+.thead{
+	position: sticky;
+    top: -2px;
+    background-color: white;
+    z-index: 100;
+    cursor: pointer;
+}
+.selected-tr{
+	background-color: #F8F8F8 !important;
+}
+
+td,th{
+	border:  1px solid black;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.red-b{
+	background-color: white;
+	color: red;
+}
+
+.green-b{
+	background-color: red !important;
+	color: green;
+}
+
+.blue-b{
+	background-color: white;
+	color: blue;
+}
+
+.modal{
+	display: none;
+	position: fixed;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 60vh;
+    height: 60vh;
+    z-index: 100;
+    background-color: lightgrey;
+    padding: 4vh;
+    margin: auto;
+    border-radius: 2px;
+}
+.block{
+	display: block !important;
+}
+
+.close{
+	margin-top: 10vh;
+}
+
+.message-header{
+    font-style: italic;
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.button-121{
+	background-color: blue;
+	color: red;
+	padding: 5px 10px;
+	border-radius: 8px;
+	border: 2px solid red;
+	cursor: pointer;
+}
+
+.btn-process{
+	background-color: white;
+	color: green;
+	padding: 5px 10px;
+	border: 2px solid green;
+	border-radius: 8px;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+
+.form-group{
+	margin-top: 5px;
+}
+
+.label{
+	padding: 5px;
+	border-radius: 3px;
+	margin-top: 2px;
+	margin-left: 5px;
+}
